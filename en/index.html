@@ -5,58 +5,146 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Properties for sale · NEO Propriétés</title>
-  <meta name="description" content="Every property has its own tour: you walk in through the front door and move room by room, from your phone.">
+  <meta name="description" content="Every property can be toured by scrolling, room by room, from your phone.">
   <meta name="theme-color" content="#0B0B0A">
   <link rel="canonical" href="https://neomontreal.github.io/proprietes/en/">
   <link rel="alternate" hreflang="fr" href="https://neomontreal.github.io/proprietes/fr/"><link rel="alternate" hreflang="es" href="https://neomontreal.github.io/proprietes/es/"><link rel="alternate" hreflang="en" href="https://neomontreal.github.io/proprietes/en/">
   <meta property="og:type" content="website"><meta property="og:locale" content="en_CA">
-  <meta property="og:title" content="Properties for sale · NEO Propriétés"><meta property="og:description" content="Every property has its own tour: you walk in through the front door and move room by room, from your phone.">
+  <meta property="og:title" content="Properties for sale · NEO Propriétés"><meta property="og:description" content="Every property can be toured by scrolling, room by room, from your phone.">
   <meta property="og:image" content="https://neomontreal.github.io/428-strathcona/assets/social/og-image-en.jpg">
   <link rel="preload" href="../assets/fonts/InstrumentSerif-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/InterTight-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://neomontreal.github.io">
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="../css/catalog.css">
+  <link rel="stylesheet" href="../css/portal.css">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
   <a class="skip" href="#contenu">Skip to content</a>
-  <header class="site-header is-solid">
+  <header class="site-header">
     <div class="wrap header__inner">
       <a class="brand" href="./"><span class="brand__num">NEO</span> <span class="brand__name">Propriétés</span></a>
+      <nav class="topnav" aria-label="Navigation"><ul><li><a href="#proprietes">Properties</a></li><li><a href="#quartiers">Neighbourhoods</a></li></ul></nav>
       <ul class="langswitch" aria-label="Language"><li><a href="../fr/" hreflang="fr" lang="fr">FR</a></li><li><a href="../es/" hreflang="es" lang="es">ES</a></li><li><a href="../en/" hreflang="en" lang="en" aria-current="true">EN</a></li></ul>
+      
     </div>
   </header>
   <main id="contenu">
-    <section class="catalog-hero">
+    <section class="phero">
+      <div class="phero__art" aria-hidden="true"><a class="phero__card phero__card--0" href="https://neomontreal.github.io/428-strathcona/en/" tabindex="-1" aria-hidden="true"><img src="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp" width="1280" height="851" alt="" decoding="async" fetchpriority="high"></a></div>
       <div class="wrap">
-        <p class="label">Properties for sale</p>
-        <h1>Homes you tour <em class="acc">by scrolling.</em></h1>
-        <p class="lead">Every property has its own tour: you walk in through the front door and move room by room, from your phone.</p>
+        <p class="label phero__in">Montreal · Exceptional properties</p>
+        <h1 class="phero__in">Find the home <em class="acc">that fits you.</em></h1>
+        <p class="lead phero__in">Every property can be toured by scrolling, room by room, from your phone.</p>
+        <form class="psearch phero__in" role="search" action="#proprietes" autocomplete="off">
+          <label class="sr" for="q">City, neighbourhood, address or Centris No.</label>
+          <span class="psearch__icon" aria-hidden="true"></span>
+          <input id="q" name="q" type="search" placeholder="City or neighbourhood" aria-autocomplete="list" aria-controls="suggest" aria-expanded="false">
+          <button class="btn btn--primary psearch__go" type="submit"><span class="btn__text">Search</span></button>
+          <ul class="psearch__list" id="suggest" role="listbox" aria-label="Suggestions" hidden></ul>
+        </form>
+        <div class="chips phero__in" role="group" aria-label="Neighbourhoods"><button type="button" class="chip" data-zone="mont-royal">Ville Mont-Royal <span>1</span></button><button type="button" class="chip" data-band="0">Under $1M</button><button type="button" class="chip" data-band="1">$1M – $2M</button><button type="button" class="chip" data-band="2">$2M – $3M</button><button type="button" class="chip" data-band="3">$3M and up</button></div>
       </div>
     </section>
-    <section class="section catalog-list" aria-label="Available">
+
+    <section class="pfeat" aria-label="Featured"><div class="wrap"><p class="label reveal">Featured</p>
+        <article class="pc pc--big reveal" data-price="2295000" data-beds="5" data-baths="2" data-area="2464" data-zone="mont-royal" data-type="maison" data-feats="piscine suite foyer garage" data-date="2026-10-03" data-q="428 chemin strathcona mont royal ville mont royal mont royal mont royal tmr vmr town of mount royal mount royal 21343398" data-status="disponible">
+          <a class="pc__link" href="https://neomontreal.github.io/428-strathcona/en/">
+            <div class="pc__media">
+              <img src="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp" srcset="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-640.webp 640w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp 960w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-1280.webp 1280w" sizes="(min-width: 900px) 60vw, 92vw" width="1280" height="851" loading="eager" decoding="async" alt="428, chemin Strathcona">
+              <video class="pc__video" muted playsinline loop preload="none" data-src="https://neomontreal.github.io/428-strathcona/assets/teaser/teaser.mp4" poster="https://neomontreal.github.io/428-strathcona/assets/teaser/poster.webp" aria-hidden="true"></video>
+              <div class="pc__badges"><span class="pc__badge pc__badge--tour"><i aria-hidden="true"></i>Moving tour</span><span class="pc__badge pc__badge--oh" data-until="2026-10-04T16:00:00-04:00">Open house Sun. Oct 4, 2–4 p.m.</span></div>
+            </div>
+            <div class="pc__body">
+              <p class="pc__zone">Ville Mont-Royal · House</p>
+              <h3 class="pc__title">428, chemin Strathcona</h3>
+              <p class="pc__line">1951, extended and reimagined. Facing the park.</p>
+              <p class="pc__price">$2,295,000</p>
+              <ul class="pc__facts"><li><strong>5</strong> bd</li><li><strong>2+1</strong> ba</li><li><strong>2,464</strong> sq ft living</li><li><strong>6,160</strong> sq ft lot</li></ul>
+              <p class="pc__broker">Dario Gomez · Profusion Immobilier</p>
+              <span class="pc__cta">Start the tour <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+        </article></div></section>
+
+    <section class="section pzones" id="quartiers" aria-label="Neighbourhoods">
+      <div class="wrap"><p class="label reveal">Neighbourhoods</p></div>
+      
+      <section class="zrow" aria-labelledby="z-mont-royal">
+        <div class="wrap zrow__head reveal">
+          <h3 id="z-mont-royal">Ville Mont-Royal</h3>
+          <p>Residential streets, parks and the REM nearby.</p>
+        </div>
+        <div class="rail">
+        <article class="pc reveal" data-price="2295000" data-beds="5" data-baths="2" data-area="2464" data-zone="mont-royal" data-type="maison" data-feats="piscine suite foyer garage" data-date="2026-10-03" data-q="428 chemin strathcona mont royal ville mont royal mont royal mont royal tmr vmr town of mount royal mount royal 21343398" data-status="disponible">
+          <a class="pc__link" href="https://neomontreal.github.io/428-strathcona/en/">
+            <div class="pc__media">
+              <img src="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp" srcset="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-640.webp 640w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp 960w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-1280.webp 1280w" sizes="(min-width: 900px) 30vw, 82vw" width="1280" height="851" loading="lazy" decoding="async" alt="428, chemin Strathcona">
+              <video class="pc__video" muted playsinline loop preload="none" data-src="https://neomontreal.github.io/428-strathcona/assets/teaser/teaser.mp4" poster="https://neomontreal.github.io/428-strathcona/assets/teaser/poster.webp" aria-hidden="true"></video>
+              <div class="pc__badges"><span class="pc__badge pc__badge--tour"><i aria-hidden="true"></i>Moving tour</span><span class="pc__badge pc__badge--oh" data-until="2026-10-04T16:00:00-04:00">Open house Sun. Oct 4, 2–4 p.m.</span></div>
+            </div>
+            <div class="pc__body">
+              <p class="pc__zone">Ville Mont-Royal · House</p>
+              <h3 class="pc__title">428, chemin Strathcona</h3>
+              
+              <p class="pc__price">$2,295,000</p>
+              <ul class="pc__facts"><li><strong>5</strong> bd</li><li><strong>2+1</strong> ba</li><li><strong>2,464</strong> sq ft living</li><li><strong>6,160</strong> sq ft lot</li></ul>
+              <p class="pc__broker">Dario Gomez · Profusion Immobilier</p>
+              <span class="pc__cta">Start the tour <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+        </article></div>
+      </section>
+    </section>
+
+    <section class="section pall" id="proprietes" aria-labelledby="all-title">
       <div class="wrap">
-        <p class="catalog-count">Available · 1 property</p>
-        <div class="pgrid">
-      <article class="pcard reveal">
-        <a class="pcard__media" href="https://neomontreal.github.io/428-strathcona/en/">
-          <img src="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp" srcset="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-640.webp 640w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp 960w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-1280.webp 1280w" sizes="(min-width: 900px) 44vw, 92vw" width="1920" height="1281" loading="lazy" decoding="async" alt="Front and garage — 428, chemin Strathcona">
-          <span class="pcard__badge">The tour · 14 stops</span>
-        </a>
-        <div class="pcard__body">
-          <p class="label">Town of Mount Royal · House for sale</p>
-          <h2 class="pcard__title">428, chemin Strathcona</h2>
-          <p class="pcard__price">$2,295,000</p>
-          <dl class="pcard__facts"><div><dt>5</dt><dd>Bedrooms, one in the basement</dd></div><div><dt>2 + 1</dt><dd>Bathrooms and powder room</dd></div><div><dt>2,464</dt><dd>Sq ft of living area</dd></div><div><dt>6,160</dt><dd>Sq ft lot</dd></div></dl>
-          <a class="btn btn--primary" href="https://neomontreal.github.io/428-strathcona/en/"><span class="btn__text">Start the tour</span><span class="btn__icon" aria-hidden="true"><i>→</i><i>→</i></span></a>
+        <div class="pall__head">
+          <div><h2 id="all-title">All properties</h2><p class="pall__count" data-count aria-live="polite">1 property</p></div>
+          <div class="pall__tools">
+            <label class="sr" for="sort">Sort</label>
+            <select id="sort" class="pselect"><option value="recent">Newest</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="area-desc">Living area</option></select>
+            <button type="button" class="btn btn--ghost pfilters__toggle" aria-expanded="false" aria-controls="filters"><span class="btn__text">Filters</span></button>
+          </div>
         </div>
-      </article>
+        <div class="pfilters" id="filters" hidden>
+          <label>Min price<select class="pselect" data-f="min"><option value="">Any</option><option value="500000">$500k</option><option value="750000">$750k</option><option value="1000000">$1M</option><option value="1500000">$1.5M</option><option value="2000000">$2M</option><option value="2500000">$2.5M</option><option value="3000000">$3M</option><option value="4000000">$4M</option><option value="5000000">$5M</option></select></label>
+          <label>Max price<select class="pselect" data-f="max"><option value="">Any</option><option value="500000">$500k</option><option value="750000">$750k</option><option value="1000000">$1M</option><option value="1500000">$1.5M</option><option value="2000000">$2M</option><option value="2500000">$2.5M</option><option value="3000000">$3M</option><option value="4000000">$4M</option><option value="5000000">$5M</option></select></label>
+          <label>Bedrooms<select class="pselect" data-f="beds"><option value="">Any</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option></select></label>
+          <label>Bathrooms<select class="pselect" data-f="baths"><option value="">Any</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option></select></label>
+          
+          <div class="pfilters__feats" role="group"><button type="button" class="chip" data-feat="piscine">Pool</button><button type="button" class="chip" data-feat="suite">Suite / finished basement</button><button type="button" class="chip" data-feat="foyer">Fireplace</button><button type="button" class="chip" data-feat="garage">Garage</button></div>
+          <button type="button" class="pfilters__clear" data-clear>Clear</button>
         </div>
+        <div class="pgrid" data-grid>
+        <article class="pc reveal" data-price="2295000" data-beds="5" data-baths="2" data-area="2464" data-zone="mont-royal" data-type="maison" data-feats="piscine suite foyer garage" data-date="2026-10-03" data-q="428 chemin strathcona mont royal ville mont royal mont royal mont royal tmr vmr town of mount royal mount royal 21343398" data-status="disponible">
+          <a class="pc__link" href="https://neomontreal.github.io/428-strathcona/en/">
+            <div class="pc__media">
+              <img src="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp" srcset="https://neomontreal.github.io/428-strathcona/assets/img/photo-06-640.webp 640w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-960.webp 960w, https://neomontreal.github.io/428-strathcona/assets/img/photo-06-1280.webp 1280w" sizes="(min-width: 900px) 30vw, 82vw" width="1280" height="851" loading="lazy" decoding="async" alt="428, chemin Strathcona">
+              <video class="pc__video" muted playsinline loop preload="none" data-src="https://neomontreal.github.io/428-strathcona/assets/teaser/teaser.mp4" poster="https://neomontreal.github.io/428-strathcona/assets/teaser/poster.webp" aria-hidden="true"></video>
+              <div class="pc__badges"><span class="pc__badge pc__badge--tour"><i aria-hidden="true"></i>Moving tour</span><span class="pc__badge pc__badge--oh" data-until="2026-10-04T16:00:00-04:00">Open house Sun. Oct 4, 2–4 p.m.</span></div>
+            </div>
+            <div class="pc__body">
+              <p class="pc__zone">Ville Mont-Royal · House</p>
+              <h3 class="pc__title">428, chemin Strathcona</h3>
+              
+              <p class="pc__price">$2,295,000</p>
+              <ul class="pc__facts"><li><strong>5</strong> bd</li><li><strong>2+1</strong> ba</li><li><strong>2,464</strong> sq ft living</li><li><strong>6,160</strong> sq ft lot</li></ul>
+              <p class="pc__broker">Dario Gomez · Profusion Immobilier</p>
+              <span class="pc__cta">Start the tour <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+        </article>
+        </div>
+        <p class="pempty" data-empty hidden>No property matches. Try another area or remove a filter.</p>
       </div>
     </section>
+    
   </main>
   <footer class="site-footer">
-    <div class="wrap footer__legal"><p>Each listing names its listing broker. Movements between rooms are visualized transitions.</p><p>© NEO Propriétés</p></div>
+    <div class="wrap footer__legal"><p>Each property names its listing broker. Movements between rooms are visualized transitions. Information provided by the brokers.</p><p>© 2026 NEO Propriétés</p></div>
   </footer>
-  <script src="../js/catalog.js" defer></script>
+  <script type="application/json" id="portal-data">{"zones": [{"id": "mont-royal", "name": "Ville Mont-Royal", "aka": ["Mont-Royal", "Mont Royal", "TMR", "VMR", "Town of Mount Royal", "Mount Royal"], "n": 1}], "bands": [0, 1000000, 2000000, 3000000], "count": ["{n} property", "{n} properties"], "lang": "en"}</script>
+  <script src="../js/portal.js" defer></script>
 </body>
 </html>

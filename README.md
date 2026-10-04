@@ -1,3 +1,3 @@
-# NEO Propriétés — catalogue
+# NEO Propriétés — plataforma madre
 
-Catálogo estático (no indexado) generado con build_catalog.py de la skill neo-property-tour. No editar aquí.
+Portal estático (no indexado) generado con build_portal.py de la skill neo-property-tour desde sites/_portal/portal.json. No editar aquí.
