@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Interfaz madre · NEO Propriétés</title>
+  <meta name="theme-color" content="#0B0B0A">
+  <link rel="stylesheet" href="../css/styles.css"><link rel="stylesheet" href="../css/portal.css"><link rel="stylesheet" href="../css/app.css">
+</head>
+<body class="app">
+  <header class="site-header">
+    <div class="wrap header__inner">
+      <a class="brand" href="../"><span class="brand__num">NEO</span> <span class="brand__name">Interfaz madre</span></a>
+      <button type="button" class="btn btn--ghost header__cta" data-logout hidden><span class="btn__text">Salir</span></button>
+    </div>
+  </header>
+  <main class="wrap madre">
+    <section class="login" data-login hidden>
+      <p class="label">Acceso privado</p><h1>Interfaz *madre.*</h1>
+      <p class="lead">Te mandamos un enlace de acceso a tu correo. Sin contraseñas.</p>
+      <form data-login-form class="login__form"><label class="sr" for="email">Correo</label>
+        <input id="email" type="email" autocomplete="email" required placeholder="tu@correo.com">
+        <button class="btn btn--primary" type="submit"><span class="btn__text">Enviar enlace</span></button></form>
+      <p class="form-status" data-login-status role="status"></p>
+    </section>
+    <section class="board" data-board hidden>
+      <div class="board__head">
+        <div><p class="label">Clientes y propiedades</p><h1>Solicitudes</h1></div>
+        <a class="btn btn--ghost" href="../fr/inscription/" target="_blank" rel="noopener"><span class="btn__text">Formulario de alta</span><span class="btn__icon" aria-hidden="true"><i>↗</i><i>↗</i></span></a>
+      </div>
+      <div class="chips" data-filters role="group" aria-label="Etapas"></div>
+      <ul class="subs" data-list></ul>
+      <p class="pempty" data-empty hidden>No hay solicitudes en esta etapa.</p>
+    </section>
+    <dialog class="sub" data-detail aria-label="Solicitud"></dialog>
+  </main>
+  <script type="application/json" id="madre-config">{"url": "https://fpuzunyropnkcteczbvl.supabase.co", "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwdXp1bnlyb3Bua2N0ZWN6YnZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwNzQzMjEsImV4cCI6MjEwNjY1MDMyMX0.Qsqc6Oc1HcIWK1z7AlaUK0dO8MYVG-5P2FE-hsWNW_E", "site": "https://neomontreal.github.io/proprietes"}</script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js" defer></script>
+  <script src="../js/madre.js" defer></script>
+</body>
+</html>
